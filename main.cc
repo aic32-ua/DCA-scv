@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << "Introduce un numero para comprobar si es par o impar:" << endl;
+    cout << "Introduce un número para comprobar si es par o impar: " ;
     int num;
     cin >> num;
     
@@ -10,9 +10,9 @@ int main(){
     	cout << "ERROR: Numero negativo" << endl; //fallo a encontrar con bisect
     }
     else if (num%2==0) {
-        cout << "El numero " << num << " es un numero par" << endl;
+        cout << "El número " << num << " es un número par." << endl;
     } else {
-        cout << "El numero " << num << " es un numero impar" << endl;
+        cout << "El número " << num << " es un número impar." << endl;
     }
 
     return 0;
