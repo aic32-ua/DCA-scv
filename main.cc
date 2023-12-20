@@ -6,10 +6,7 @@ int main(){
     int num;
     cin >> num;
     
-    if(num<0){
-    	cout << "ERROR: Numero negativo" << endl; //fallo a encontrar con bisect
-    }
-    else if (num%2==0) {
+    if (num%2==0) {
         cout << "El número " << num << " es un número par." << endl;
     } else {
         cout << "El número " << num << " es un número impar." << endl;
