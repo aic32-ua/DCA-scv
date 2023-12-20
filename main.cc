@@ -10,9 +10,9 @@ int main(){
     	cout << "ERROR: Numero negativo" << endl; //fallo a encontrar con bisect
     }
     else if (num%2==0) {
-        cout << "Es un numero par" << endl;
+        cout << "El numero " << num << " es un numero par" << endl;
     } else {
-        cout << "Es un numero impar" << endl;
+        cout << "El numero " << num << " es un numero impar" << endl;
     }
 
     return 0;
